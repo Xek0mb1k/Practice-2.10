@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:padding="8dp"
+        android:id="@+id/etFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:background="@drawable/border_edit_text"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:padding="8dp"
+        android:id="@+id/etLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:autofillHints=""
+        android:background="@drawable/border_edit_text"
+        android:hint="@string/lname"
+        android:inputType="text"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:textSize="24sp" />
+
+    <EditText
+        android:padding="8dp"
+        android:id="@+id/etAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:autofillHints=""
+        android:background="@drawable/border_edit_text"
+        android:hint="@string/age"
+        android:inputType="number"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/add" />
+
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/continues" />
+</LinearLayout>
+
+
